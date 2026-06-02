@@ -1,0 +1,42 @@
+[
+  {
+    "id": "ai_horror_saas",
+    "name": "AI Horror SaaS",
+    "description": "Short AI horror film platform with selections, subscriptions, and creator pipeline.",
+    "effort": 72,
+    "revenuePotential": 68,
+    "timeToRevenue": 55,
+    "risk": 58,
+    "traction": 30
+  },
+  {
+    "id": "field_force_os",
+    "name": "Field Force OS",
+    "description": "Field service / technician platform with customer support, owner login, dispatch, and monetization.",
+    "effort": 78,
+    "revenuePotential": 74,
+    "timeToRevenue": 62,
+    "risk": 46,
+    "traction": 42
+  },
+  {
+    "id": "future_engine_x",
+    "name": "Future Engine X",
+    "description": "Probability-cloud forecasting, memory, prediction grading, and multi-agent council.",
+    "effort": 84,
+    "revenuePotential": 71,
+    "timeToRevenue": 48,
+    "risk": 65,
+    "traction": 25
+  },
+  {
+    "id": "sustainable_marketplace",
+    "name": "Sustainable Marketplace",
+    "description": "Marketplace with customer support, owner login, seller tools, and payments.",
+    "effort": 88,
+    "revenuePotential": 66,
+    "timeToRevenue": 40,
+    "risk": 70,
+    "traction": 20
+  }
+]
