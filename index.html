@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<title>Future Engine X</title>
+<style>
+:root{--bg:#030611;--panel:#0d1324;--panel2:#131b31;--text:#edf3ff;--muted:#97a5c9;--a:#a855f7;--b:#22d3ee;--c:#f43f5e;--g:#22c55e;--w:#f59e0b;--line:rgba(255,255,255,.12)}
+*{box-sizing:border-box} body{margin:0;background:radial-gradient(circle at 15% 0%,rgba(168,85,247,.30),transparent 28%),radial-gradient(circle at 85% 5%,rgba(34,211,238,.18),transparent 32%),radial-gradient(circle at 50% 100%,rgba(244,63,94,.14),transparent 35%),var(--bg);color:var(--text);font-family:Inter,system-ui,Arial,sans-serif}
+header{padding:34px 18px;text-align:center;border-bottom:1px solid var(--line)} h1{margin:0;font-size:clamp(38px,7vw,78px);letter-spacing:-2px} p{color:var(--muted);line-height:1.55}
+main{max-width:1380px;margin:auto;padding:18px;display:grid;grid-template-columns:1fr 1fr;gap:18px}@media(max-width:950px){main{grid-template-columns:1fr}}
+.card{background:linear-gradient(180deg,rgba(255,255,255,.065),rgba(255,255,255,.025));border:1px solid var(--line);border-radius:22px;padding:18px;box-shadow:0 20px 55px rgba(0,0,0,.28);backdrop-filter: blur(10px)}
+.full{grid-column:1/-1}.grid{display:grid;grid-template-columns:1fr 1fr;gap:12px}@media(max-width:700px){.grid{grid-template-columns:1fr}}
+h2,h3{margin:0 0 12px} label{display:block;color:var(--muted);font-size:13px;margin:10px 0 5px}
+textarea,input{width:100%;border:1px solid var(--line);background:#070d1d;color:var(--text);border-radius:14px;padding:11px;font-size:14px}textarea{min-height:80px;resize:vertical}
+.slider{display:grid;grid-template-columns:1fr 52px;gap:8px;align-items:center} input[type=range]{padding:0}
+button{border:0;border-radius:15px;padding:13px 16px;margin:12px 8px 0 0;font-weight:900;color:white;background:linear-gradient(135deg,var(--a),var(--b));cursor:pointer}button.secondary{background:#202941;border:1px solid var(--line)}
+.box{background:#070d1d;border:1px solid var(--line);border-radius:18px;padding:15px;margin-top:10px}.item{background:rgba(255,255,255,.035);border:1px solid var(--line);border-radius:16px;padding:13px;margin:10px 0}.pill{display:inline-flex;margin:4px;padding:7px 10px;border-radius:999px;border:1px solid var(--line);color:var(--muted);font-size:12px;background:rgba(255,255,255,.04)}
+.meter{height:10px;border-radius:999px;background:#202941;overflow:hidden;margin:6px 0 12px}.meter span{display:block;height:100%;background:linear-gradient(90deg,var(--a),var(--b))}
+.small{font-size:12px;color:var(--muted)}.mono{font-family:ui-monospace,Menlo,Consolas,monospace;color:#bdf7ff}.agent{border-left:4px solid var(--b)}.warn{color:#ffd28a}.ok{color:#a7ffc3}.bad{color:#ffb0b0}
+table{width:100%;border-collapse:collapse}td,th{border-bottom:1px solid var(--line);padding:8px;text-align:left}th{color:var(--muted);font-size:12px}
+</style>
+</head>
+<body>
+<header>
+<h1>Future Engine X</h1>
+<p>Multi-agent reality navigation: probability clouds, council reasoning, memory, self-correction, project ranking, and your skill lenses as cognitive modules.</p>
+</header>
+<main>
+<section class="card">
+<h2>Signal Board</h2>
+<div class="grid">
+<div><label>Money / markets</label><textarea id="finance">Need money fast, bills pressure, AI services, local businesses need help</textarea></div>
+<div><label>World / news</label><textarea id="world">AI adoption, uncertainty, economic stress, public fear, strange headlines</textarea></div>
+<div><label>Weather / environment</label><textarea id="weather">storms, heat, energy demand, local disruptions</textarea></div>
+<div><label>Human behavior</label><textarea id="human">people want speed, convenience, trust, entertainment, protection, hope</textarea></div>
+<div><label>Science / tech</label><textarea id="science">automation, quantum AI, agentic workflows, apps, predictive analytics</textarea></div>
+<div><label>William / projects</label><textarea id="personal">AI Horror SaaS, Field Force OS, Future Engine, customer support skills, persistence, urgency</textarea></div>
+</div>
+</section>
+
+<section class="card">
+<h2>Reality Dials</h2>
+<div class="grid">
+<div><label>Money pressure</label><div class="slider"><input id="money" type="range" min="0" max="100" value="88"><span id="moneyV">88</span></div></div>
+<div><label>Opportunity</label><div class="slider"><input id="opportunity" type="range" min="0" max="100" value="81"><span id="opportunityV">81</span></div></div>
+<div><label>Chaos</label><div class="slider"><input id="chaos" type="range" min="0" max="100" value="74"><span id="chaosV">74</span></div></div>
+<div><label>Action intensity</label><div class="slider"><input id="action" type="range" min="0" max="100" value="84"><span id="actionV">84</span></div></div>
+<div><label>Data confidence</label><div class="slider"><input id="data" type="range" min="0" max="100" value="52"><span id="dataV">52</span></div></div>
+<div><label>Skill integration</label><div class="slider"><input id="skills" type="range" min="0" max="100" value="94"><span id="skillsV">94</span></div></div>
+</div>
+<button onclick="run()">Run Council</button>
+<button class="secondary" onclick="loadMemory()">Memory</button>
+<button class="secondary" onclick="loadStats()">Stats</button>
+<button class="secondary" onclick="loadSkills()">Skills</button>
+<p class="small">The key goes in <span class="mono">.env</span> on the backend. Without a key, fallback mode still runs.</p>
+</section>
+
+<section class="card full">
+<h2>Forecast</h2>
+<div id="forecast" class="box">Run the council.</div>
+</section>
+
+<section class="card full">
+<h2>Council Reports</h2>
+<div id="council" class="box">No council run yet.</div>
+</section>
+
+<section class="card">
+<h2>Project Rankings</h2>
+<div id="projects" class="box">No rankings yet.</div>
+</section>
+
+<section class="card">
+<h2>Engine Memory</h2>
+<div id="memory" class="box">No memory loaded.</div>
+</section>
+</main>
+<script>
+for (const id of ["money","opportunity","chaos","action","data","skills"]) {
+  const el=document.getElementById(id), v=document.getElementById(id+"V");
+  el.addEventListener("input",()=>v.textContent=el.value);
+}
+function payload(){
+  return {
+    signals:{finance:finance.value,world:world.value,weather:weather.value,human:human.value,science:science.value,personal:personal.value},
+    sliders:{money:money.value,opportunity:opportunity.value,chaos:chaos.value,action:action.value,data:data.value,skills:skills.value}
+  };
+}
+function meter(n,v){v=Math.round(v||0);return `<b>${n}: ${v}%</b><div class="meter"><span style="width:${v}%"></span></div>`}
+async function run(){
+  forecast.innerHTML="Council is arguing with reality...";
+  council.innerHTML="Agents waking up...";
+  try{
+    const res=await fetch("/api/forecast",{method:"POST",headers:{"Content-Type":"application/json"},body:JSON.stringify(payload())});
+    const f=await res.json();
+    if(f.error) throw new Error(f.details||f.error);
+    render(f); loadMemory(); loadStats();
+  }catch(e){forecast.innerHTML=`<span class="bad">Error: ${e.message}</span>`}
+}
+function render(f){
+  const ds=f.domainScores||{};
+  forecast.innerHTML=`
+  <div class="pill">ID ${f.id}</div><div class="pill">Confidence ${f.confidence}%</div><div class="pill">Skills loaded: ${(f.skillFilesLoaded||[]).length}</div>
+  <h3>${f.headline||"Forecast"}</h3>
+  <div class="grid"><div>${meter("Money",ds.money)}${meter("Technology",ds.technology)}${meter("Human behavior",ds.humanBehavior)}${meter("Personal momentum",ds.personalMomentum)}</div><div>${meter("World events",ds.worldEvents)}${meter("Weather / environment",ds.weatherEnvironment)}${meter("Unknown",ds.unknown)}</div></div>
+  <h3>Probability Cloud</h3>${(f.probabilityCloud||[]).map(x=>`<div class="item"><b>${x.future} — ${x.probability}%</b><br>${x.summary||""}<br><span class="small">${x.why||""}</span></div>`).join("")}
+  <h3>Synthesis</h3><div class="item"><b>Strongest:</b> ${f.synthesis?.strongestSignal||""}<br><b>Weakest:</b> ${f.synthesis?.weakestSignal||""}<br><b>Move now:</b> ${f.synthesis?.moveNow||""}</div>
+  <h3>Blind Spots</h3><ul>${(f.blindSpots||[]).map(x=>`<li>${x}</li>`).join("")}</ul>
+  <h3>Falsifiers</h3><ul>${(f.falsifiers||[]).map(x=>`<li>${x}</li>`).join("")}</ul>
+  <h3>Next Best Actions</h3><ol>${(f.nextBestActions||[]).map(x=>`<li>${x}</li>`).join("")}</ol>`;
+  council.innerHTML=(f.council||[]).map(a=>`<div class="item agent"><b>${a.agent}</b> <span class="pill">${a.confidence}%</span><br>${a.forecast||""}<br><span class="small">Evidence: ${(a.evidence||[]).join("; ")}</span><br><span class="small">Blind spots: ${(a.blindSpots||[]).join("; ")}</span></div>`).join("");
+  projects.innerHTML=`<table><tr><th>Project</th><th>Score</th><th>Move</th></tr>${(f.projectRankings||[]).map(p=>`<tr><td>${p.name}</td><td>${p.score}</td><td>${p.recommendation||p.reason||""}</td></tr>`).join("")}</table>`;
+}
+async function loadMemory(){
+  const res=await fetch("/api/memory"); const items=await res.json();
+  memory.innerHTML = items.length ? items.slice(0,14).map(m=>`<div class="item"><b>${m.headline||"Prediction"}</b><br><span class="small">${m.createdAt} • ${m.id} • ${m.result||"ungraded"}</span><br><button class="secondary" onclick="grade('${m.id}','hit')">Hit</button><button class="secondary" onclick="grade('${m.id}','partial')">Partial</button><button class="secondary" onclick="grade('${m.id}','miss')">Miss</button></div>`).join("") : "No predictions yet.";
+}
+async function grade(id,result){
+  const notes=prompt("What happened?")||"";
+  await fetch("/api/grade",{method:"POST",headers:{"Content-Type":"application/json"},body:JSON.stringify({id,result,notes})});
+  loadMemory(); loadStats();
+}
+async function loadStats(){
+  const res=await fetch("/api/stats"); const s=await res.json();
+  memory.innerHTML = `<div class="item"><b>Stats</b><br>Total: ${s.total}<br>Graded: ${s.graded}<br>Hits: ${s.hits}<br>Partials: ${s.partials}<br>Misses: ${s.misses}<br>Calibration: ${s.calibrationScore ?? "not enough data"}%</div>` + memory.innerHTML;
+}
+async function loadSkills(){
+  const res=await fetch("/api/skills"); const s=await res.json();
+  council.innerHTML=s.map(x=>`<div class="item"><b>${x.name}</b><br><span class="small">${x.file}</span><pre>${x.excerpt.replace(/[<>&]/g,c=>({"<":"&lt;",">":"&gt;","&":"&amp;"}[c]))}</pre></div>`).join("");
+}
+</script>
+</body>
+</html>
