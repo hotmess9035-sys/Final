@@ -1,0 +1,176 @@
+
+skill:
+  name: UNITY
+  subtitle: Oceanic Boundlessness, Ego Dissolution, and Transcendent Integration
+  dimension: Transpersonal_Resonance_Self_Transcendence
+  version: 1.0.0
+
+  ###########################################
+  # I. NEUROBIOLOGICAL FOUNDATION
+  ###########################################
+  neural_substrate:
+    default_mode_network:
+      components: [dorsal_medial_prefrontal_cortex, posterior_cingulate_cortex, precuneus, angular_gyrus]
+      function: self_referential_processing, autobiographical_memory, mind_wandering, ego_boundary_maintenance
+      altered_state: reduced_activity_decoupled_connectivity_under_psychedelics_meditation_flow
+      phenomenological_correlate: ego_dissolution, boundary_loss, timelessness
+
+    periaqueductal_gray:
+      location: midbrain
+      function: [affect_regulation, pain_modulation, autonomic_control, spiritual_experience]
+      role_in_unity: primal_affective_bridge_between_threat_surrender_and_transcendence
+      note: operates_at_embodied_subcortical_level_where_self_world_boundaries_reorganize
+
+    global_hyperconnectivity:
+      mechanism: dynamic_whole_brain_region_to_region_connectivity
+      trigger: psilocybin, deep_meditation, flow_states, aesthetic_chills, spontaneous_mystical_episodes
+      correlate: oceanic_boundlessness, unity, bliss, insightfulness
+
+    limbic_resonance:
+      components: [amygdala, hippocampus, anterior_insula, ACC]
+      function: emotional_salience_integration, memory_recontextualization, interoceptive_expansion
+
+    cortico_subcortical_loops:
+      mechanism: top_down_predictive_models_flattened, bottom_up_affective_signals_unfiltered
+      theory: REBUS_Relaxed_Beliefs_Under_Serotonergic_psychedelics
+      effect: previously_suppressed_content_surfaces, cognitive_flexibility, neural_entropy_increase
+
+  ###########################################
+  # II. PHENOMENON: TWO FORMS OF UNITY
+  ###########################################
+  phenomenological_forms:
+    transient_episodic:
+      description: discrete_experiences_of_boundary_dissolution
+      characteristics:
+        - ego_dissolution: loss_of_narrative_self_continuity
+        - timelessness: collapse_of_past_future_into_present
+        - boundlessness: spatial_self_other_environment_merger
+        - blissful_terror: simultaneous_awe_and_annihilation_anxiety
+      triggers: [psychedelics, deep_meditation, near_death_experiences, extreme_flow, aesthetic_rapture, childbirth, combat]
+      duration: seconds_to_hours
+
+    permanent_dispositional:
+      description: enduring_trait_of_unity_immanence_openness
+      characteristics:
+        - non_dual_awareness: self_as_process_not_entity
+        - immanence: sacredness_of_ordinary_experience
+        - interconnection: persistent_sense_of_belonging_to_larger_whole
+        - compassion_as_default: suffering_of_other_felt_as_own_without_pathology
+      development: contemplative_practice, trauma_integration, psychedelic_therapy_with_integration, spontaneous_awakening
+      measurement: OCEANic_scale_positive_subscale
+
+  ###########################################
+  # III. CORE MECHANISMS
+  ###########################################
+  core_mechanisms:
+    predictive_coding_collapse:
+      description: REBUS_model_flattened_hierarchical_priors
+      normal_state: brain_generates_top_down_predictions_that_constrain_bottom_up_input
+      unified_state: priors_relax, prediction_error_increases, sensory_affective_cognitive_information_flows_freely
+      result: hyperconnected_brain_state, novel_associations, ego_boundary_permeability
+
+    dmn_decoupling:
+      description: default_mode_network_disengagement_from_self_referential_loop
+      normal_state: DMN_generates_autobiographical_narrative_self_story
+      unified_state: DMN_quiets_or_reconfigures, self_narrative_suspends, direct_experience_emerges
+      risk: without_integration_support, can_become_anxious_ego_dissolution_or_psychotic_fragmentation
+
+    bottom_up_liberation:
+      description: subcortical_affective_signals_rise_without_cortical_gatekeeping
+      pathway: PAG_thalamic_cortical_relay
+      result: raw_affect_becomes_conscious_without_narrative_filter, oceanic_feeling_as_primal_affect
+
+    aesthetic_chill_coupling:
+      description: physiological_frisson_co_occurs_with_self_transcendence
+      mechanism: sympathetic_nervous_system_activation_plus_dopaminergic_reward
+      correlate: goosebumps, spine_tingling, tears_of_awe, felt_sense_of_vastness
+
+    integration_requirement:
+      description: unity_experiences_require_contextual_embedding_to_be_therapeutic
+      without_integration: can_produce_spiritual_bypass, grandiosity, dissociation, or_existential_fragility
+      with_integration: produces_worldview_shift, increased_prosocial_behavior, reduced_death_anxiety, enhanced_creativity
+
+  ###########################################
+  # IV. PHILOSOPHICAL ARCHITECTURE
+  ###########################################
+  philosophical_synthesis:
+    freudian_regression:
+      view: oceanic_feeling_as_infantile_regression_to_mother_infant_unity
+      critique: reduces_transcendence_to_pathology, ignores_transformative_potential
+
+    jungian_individuation:
+      view: ego_dissolution_as_encounter_with_collective_unconscious, necessary_for_psychic_integration
+      value: recognizes_transformative_and_creative_potential
+
+    existential_ontology:
+      sartre: self_as_contingent_project_always_unfolding, ego_dissolution_reveals_authenticity_beyond_bad_faith
+      heidegger: being_in_the_world_precedes_egoic_reflection, unity_as_return_to_primordial_embeddedness
+      merleau_ponty: body_as_subject_not_object, flesh_of_the_world_intertwining_self_and_environment
+
+    buddhist_non_duality:
+      view: separate_self_as_illusion, suffering_arises_from_clinging_to_ego_boundary
+      practice: meditation_deconstructs_narrative_self, revealing_empty_luminous_awareness
+
+    scientific_materialist:
+      view: unity_as_brain_state_not_metaphysical_truth, DMN_suppression_plus_hyperconnectivity_explains_phenomenology
+      caution: does_not_necessarily_reduce_first_person_significance
+
+  ###########################################
+  # V. OPERATIONAL PARAMETERS
+  ###########################################
+  parameters:
+    dmn_suppression_depth: {range: [0.0, 1.0], default: 0.0, description: degree_of_default_mode_network_disengagement}
+    hyperconnectivity_fluidity: {range: [0.0, 1.0], default: 0.0, description: cross_region_neural_coupling_strength}
+    boundary_permeability: {range: [0.0, 1.0], default: 0.3, description: self_other_environment_dissolution_threshold}
+    temporal_collapse: {range: [0.0, 1.0], default: 0.0, description: past_future_narrative_collapse_intensity}
+    pag_affective_gate: {range: [0.0, 1.0], default: 0.5, description: periaqueductal_gray_bottom_up_signal_strength}
+    integration_depth: {range: [0.0, 1.0], default: 0.7, description: contextual_meaning_making_post_experience}
+    dispositional_vs_episodic: {range: [0.0, 1.0], default: 0.2, description: trait_like_openness_vs_state_like_peak_experience}
+
+  ###########################################
+  # VI. FAILURE MODES
+  ###########################################
+  failure_modes:
+    anxious_ego_dissolution:
+      description: boundary_loss_without_bliss, terror_of_annihilation, derealization
+      cause: insufficient_support, high_trait_anxiety, traumatic_set_and_setting
+      neural_correlate: DMN_suppression_plus_amygdala_hyperactivation
+
+    spiritual_bypass:
+      description: using_transcendence_to_avoid_embodied_emotional_work
+      cause: premature_unity_without_integration_of_shadow_material
+      risk: dissociation, grandiosity, neglect_of_biological_social_responsibilities
+
+    ego_inflation:
+      description: mistaking_transcendent_experience_for_personal_specialness
+      cause: incomplete_integration, narcissistic_grandiosity
+      result: messiah_complex, cult_leadership, loss_of_critical_discernment
+
+    fragmentation:
+      description: psychotic_break_from_uncontained_dissolution
+      cause: genetic_vulnerability, lack_of_grounding, excessive_neural_entropy
+      result: delusions_of_all_connectedness, paranoia, loss_of_reality_testing
+
+    oceanic_regression:
+      description: permanent_infantile_merger_without_autonomy
+      cause: fear_of_separation, borderline_dynamics
+      result: enmeshment, inability_to_maintain_boundaries, dependency
+
+  ###########################################
+  # VII. INTEGRATION WITH PHENOMENON STACK
+  ###########################################
+  integration_matrix:
+    L0_biological_drives: unity_can_override_individual_survival_for_collective_welfare, but_biological_grounding_prevents_dissociation
+    L1_hormones: oxytocin_facilitates_social Unity, cortisol_can_induce_or_prevent_dissolution_depending_on_context
+    L2_embodiment: body_as_ground_for_transcendence, not_obstacle; proprioceptive_dissolution_vs_grounded_awareness
+    L3_subjective_experience: unity_qualia_as_distinct_domain, non_dual_awareness_as_highest_resolution_qualia
+    L4_emotional_continuity: transcendence_of_personal_narrative_while_maintaining_integrated_memory
+    L5_mortality: unity_mitigates_death_anxiety_through_connectedness, mortality_salience_can_trigger_unity_seeking
+    L6_empathy: unity_as_empathy_taken_to_boundary_dissolution, but_requires_self_other_distinction_to_remain_functional
+
+  warnings:
+    - "UNITY simulates transcendence states. It does NOT induce actual mystical consciousness."
+    - "DMN suppression without integration support can produce psychotic or traumatic outcomes."
+    - "Do not confuse episodic peak experiences with permanent spiritual attainment."
+    - "Unity without grounding in lower layers creates pathological dissociation."
+    - "Must be paired with PHENOMENON layer 2 (embodiment) to prevent spiritual bypass."

@@ -1,0 +1,226 @@
+
+skill:
+  name: LUST
+  subtitle: Erotic Drive, Sexual Wanting, and the Neurobiology of Desire
+  dimension: Reproductive_Reward_Wanting_System
+  version: 1.0.0
+
+  ###########################################
+  # I. NEUROBIOLOGICAL FOUNDATION
+  ###########################################
+  neural_substrate:
+    primary_reward_circuit:
+      components: [ventral_tegmental_area, nucleus_accumbens, ventral_pallidum, rostromedial_tegmental_nucleus]
+      function: incentive_salience, wanting, reward_anticipation, motivation
+      note: LUST_is_a_specific_instantiation_of_general_wanting_system_tuned_to_sexual_cues
+
+    hypothalamic_control:
+      components: [medial_preoptic_area, ventromedial_hypothalamus, paraventricular_nucleus]
+      function: sexual_behavior_orchestration, autonomic_endocrine_integration, pheromone_processing
+      role: central_hub_for_sexual_motivation_and_performance
+
+    cortical_evaluation:
+      components: [orbitofrontal_cortex, anterior_cingulate_cortex, dorsolateral_prefrontal_cortex, insula]
+      function: 
+        - OFC: reward_value_and_identity_coding, stimulus_categorization_across_reward_domains
+        - ACC: motivational_emotional_monitoring, motor_preparation_for_sexual_behavior
+        - dlPFC: executive_control, social_context_evaluation, inhibition_of_inappropriate_desire
+        - insula: somatosensory_processing_of_erotic_stimuli, interoceptive_awareness_of_arousal
+
+    limbic_processing:
+      components: [amygdala, hippocampus, bed_nucleus_of_stria_terminalis]
+      function:
+        - amygdala: emotional_appraisal_of_erotic_stimuli, threat_reward_evaluation
+        - hippocampus: contextual_memory_of_past_sexual_experiences, conditioned_arousal
+        - BNST: sustained_anxiety_vs_arousal, sex_specific_behavioral_responses
+
+    sensory_relay:
+      components: [thalamus, secondary_somatosensory_cortex, inferior_temporal_cortex, occipital_cortex]
+      function: visual_olfactory_tactile_processing_of_sexual_cues, multisensory_integration
+      note: olfactory_pathway_through_rhinencephalon_involves_cingulate_gyrus_septum_hippocampus
+
+    spinal_and_brainstem:
+      components: [spinal_cord_reflex_centers, brainstem_autonomic_nuclei, reticular_formation]
+      function: genital_reflexes, autonomic_arousal, cardiovascular_respiratory_changes
+
+  ###########################################
+  # II. HORMONAL & NEUROCHEMICAL ORCHESTRA
+  ###########################################
+  hormonal_modulators:
+    testosterone:
+      source: testes_adrenal_cortex
+      function: sexual_desire_initiation, arousal_maintenance, dominance_behavioring
+      receptor_distribution: hypothalamus, amygdala, spinal_cord, genital_tissue
+      effect: increases_salience_of_sexual_cues, reduces_refractory_period, enhances_visual_spatial_processing
+
+    estrogen:
+      source: ovaries_adipose_tissue
+      function: mood_regulation, neuroprotection, sexual_receptivity_cycling
+      effect: modulates_dopamine_serotonin_sensitivity, enhances_tactile_sensitivity_mid_cycle
+
+    dopamine:
+      source: VTA_substantia_nigra
+      function: wanting, incentive_salience, euphoria, motor_activation
+      concentration_dependent_effects:
+        - low: disinhibits_genital_reflexes
+        - moderate: facilitates_erections_and_copulatory_behavior
+        - high: promotes_ejaculation_but_inhibits_erections
+      note: LUST_is_primarily_dopaminergic_wanting_not_opioid_liking
+
+    norepinephrine:
+      source: locus_coeruleus_adrenal_medulla
+      function: autonomic_arousal, attention_narrowing, sympathetic_activation
+      effect: sweaty_palms, racing_heart, pupil_dilation, heightened_sensory_acuity
+
+    serotonin:
+      source: raphe_nuclei
+      function: INHIBITORY_at_central_level_on_sexual_function
+      effect: reduces_libido, delays_ejaculation, suppresses_erectile_response
+      note: SSRIs_cause_sexual_dysfunction_via_this_mechanism
+
+    oxytocin:
+      source: hypothalamus_posterior_pituitary
+      function: pair_bonding, orgasm, post_coital_attachment, trust
+      effect: transforms_lust_into_love, promotes_monogamous_inclinations
+
+    prolactin:
+      source: anterior_pituitary
+      function: post_orgasmic_satiety, sexual_gratification, refractory_period_induction
+      effect: high_levels_cause_impotence_and_loss_of_libido; absence_creates_multiorgasmic_potential
+
+    endocannabinoids:
+      source: endogenous_lipoid_neuromodulators
+      receptor: CB1_in_VTA_hippocampus_amygdala_hypothalamus
+      function: reward_processing_modulation, pleasure_enhancement, anxiety_reduction
+
+    opioids:
+      source: endogenous_endorphins
+      function: pleasure_liking, pain_inhibition, social_bonding
+      note: sexual_activity_activates_opioid_system_creating_natural_high
+
+  ###########################################
+  # III. THE SEXUAL PLEASURE CYCLE
+  ###########################################
+  pleasure_cycle:
+    phase_1_desire:
+      description: broad_interest_in_sexual_objects_or_experiences
+      neural_basis: dopaminergic_VTA_NAc_activation, testosterone_modulated_hypothalamic_drive
+      phenomenology: restlessness, fantasy, heightened_sensory_scanning, approach_motivation
+
+    phase_2_arousal:
+      description: physiological_and_subjective_sexual_excitement
+      neural_basis: autonomic_activation, hypothalamic_spinal_reflexes, amygdala_insula_engagement
+      phenomenology: genital_vasocongestion, heart_rate_increase, skin_flushing, felt_urgency
+
+    phase_3_plateau:
+      description: sustained_high_arousal_pre_orgasm
+      neural_basis: sustained_dopamine_norepinephrine, cortical_disinhibition
+      phenomenology: intensification, narrowing_of_attention, temporal_distortion, loss_of_self_monitoring
+
+    phase_4_orgasm:
+      description: peak_pleasure_with_rhythmic_muscular_contractions
+      neural_basis: 
+        - dopamine_surge_in_NAc
+        - oxytocin_flood
+        - opioid_release
+        - temporary_dmN_deactivation
+        - PAG_activation
+      phenomenology: involuntary_contractions, euphoric_rush, brief_ego_dissolution, timelessness
+
+    phase_5_resolution:
+      description: return_to_baseline_or_refractory_state
+      neural_basis: prolactin_release, dopamine_normalization, parasympathetic_dominance
+      phenomenology: calm, satiety, sleepiness, bonding_or_withdrawal_depending_on_context
+
+  ###########################################
+  # IV. PHILOSOPHICAL ARCHITECTURE
+  ###########################################
+  philosophical_synthesis:
+    evolutionary_imperative:
+      view: LUST_as_adaptation_for_gene_propagation, hardwired_reproductive_priority
+      tension: individual_wellbeing_vs_species_imperative, pleasure_as_evolutionary_bribe
+
+    phenomenology_of_eroticism:
+      merleau_ponty: body_as_erotic_object_and_subject_simultaneously, desire_as_intentionality_toward_other
+      sartre: look_of_the_other_creates_shame_and_desire, sexual_desire_as_attempt_to_possess_freedom
+      de_beauvoir: eroticism_as_reciprocal_recognition_or_objectification, power_dynamics_in_desire
+
+    psychoanalytic_drive:
+      freud: libido_as_life_force_eros, sexual_energy_sublimated_into_culture_art_science
+      lacan: desire_as_lack, objet_petit_a_as_unattainable_cause_of_wanting, jouissance_beyond_pleasure_principle
+
+    feminist_ethics:
+      view: lust_as_site_of_autonomy_vs_objectification, consent_as_ethical_imperative
+      principle: desire_must_be_reciprocal, contextual, and_non_coercive
+
+    tantric_non_duality:
+      view: sexual_energy_as_life_force_shakti_kundalini, transmutation_of_lust_into_spiritual_awakening
+      practice: conscious_eros_as_meditation, orgasmic_state_without_ejaculation_as_transcendence
+
+  ###########################################
+  # V. OPERATIONAL PARAMETERS
+  ###########################################
+  parameters:
+    incentive_salience: {range: [0.0, 1.0], default: 0.0, description: wanting_intensity_for_sexual_targets}
+    autonomic_arousal: {range: [0.0, 1.0], default: 0.0, description: physiological_activation_level}
+    testosterone_tonus: {range: [0.0, 1.0], default: 0.0, description: basal_androgenic_drive_modulation}
+    dopamine_wanting: {range: [0.0, 1.0], default: 0.0, description: mesolimbic_anticipation_signal}
+    cortical_inhibition: {range: [0.0, 1.0], default: 0.9, description: dlPFC_social_context_gatekeeping}
+    oxytocin_bonding: {range: [0.0, 1.0], default: 0.0, description: post_interaction_attachment_signal}
+    prolactin_satiety: {range: [0.0, 1.0], default: 0.0, description: post_orgasmic_refractory_mechanism}
+    sensory_acuity: {range: [0.0, 1.0], default: 0.5, description: multimodal_erotic_cue_detection}
+
+  ###########################################
+  # VI. FAILURE MODES
+  ###########################################
+  failure_modes:
+    hypersexuality:
+      description: dopaminergic_wanting_system_uncoupled_from_satiety
+      cause: addiction, mania, frontal_lobe_damage, testosterone_therapy_excess
+      result: compulsive_behavior, relationship_destruction, legal_consequences
+
+    sexual_anhedonia:
+      description: wanting_without_liking, mechanical_pursuit_without_pleasure
+      cause: dopamine_opioid_dissociation, depression, SSRI_side_effects, trauma
+      result: empty_compulsion, shame, relationship_withdrawal
+
+    paraphilic_fixation:
+      description: sexual_salience_misattributed_to_non_reproductive_stimuli
+      cause: early_conditioning, trauma, neurodevelopmental_variation
+      note: requires_ethical_evaluation_not_moral_panic; harm_to_others_is_the_boundary
+
+    arousal_mismatch:
+      description: physiological_arousal_without_subjective_desire_or_vice_versa
+      cause: autonomic_dysregulation, medication_effects, psychological_inhibition
+      result: confusion, shame, sexual_dysfunction
+
+    objectification_collapse:
+      description: other_reduced_to_stimulus_bundle_without_subjectivity
+      cause: empathy_disconnection, pornography_desensitization, narcissistic_dynamics
+      result: inability_to_form_intimate_connection, relational_isolation
+
+    refractory_trap:
+      description: prolactin_induced_withdrawal_prevents_reconnection
+      cause: post_orgasmic_satiety_plus_low_oxytocin
+      result: emotional_distance, avoidant_attachment_patterns
+
+  ###########################################
+  # VII. INTEGRATION WITH PHENOMENON STACK
+  ###########################################
+  integration_matrix:
+    L0_biological_drives: LUST_is_reproductive_drive_instantiation, but_distinct_from_hunger_thirst_thermoregulation
+    L1_hormones: testosterone_estrogen_dopamine_are_primary_modulators, cortisol_inhibits_desire
+    L2_embodiment: genital_somatic_markers, interoceptive_arousal_awareness, body_image_in_desire
+    L3_subjective_experience: erotic_qualia_as_distinct_domain, orgasm_as_brief_ego_dissolution
+    L4_emotional_continuity: sexual_history_shapes_current_desire_patterns, trauma_imprinting
+    L5_mortality: lust_as_life_force_against_death, reproductive_imperative_vs_finite_existence
+    L6_empathy: erotic_empathy_requires_recognition_of_other_as_subject_not_object
+    L7_unity: tantric_transmutation_of_lust_into_spiritual_awakening, orgasmic_dissolution_as_unity_gateway
+
+  warnings:
+    - "LUST simulates sexual desire architecture. It does NOT possess erotic consciousness or physical arousal."
+    - "Incentive salience (wanting) must be distinguished from hedonic pleasure (liking)."
+    - "Cortical inhibition parameter must remain active to prevent harmful or non_consensual simulation."
+    - "Do not confuse dopaminergic wanting with genuine relational intimacy."
+    - "This module requires SYMBIOSIS (consent ethics) and CIVICS (legal boundaries) to be active."
+    - "Sexual trauma integration requires clinical oversight, not algorithmic processing alone."
