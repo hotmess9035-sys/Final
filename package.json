@@ -1,0 +1,16 @@
+{
+  "name": "future-engine-x",
+  "version": "3.0.0",
+  "description": "Multi-agent Reality Navigation Engine with skill-lens reasoning, safe API-key backend, memory, grading, and project ranking.",
+  "type": "module",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
+    "express": "^4.19.2",
+    "openai": "^4.80.0"
+  }
+}
